@@ -21,7 +21,7 @@ class Settings(BaseSettings):
     
     # DeepSeek API 配置
     DEEPSEEK_API_BASE: str = "https://api.deepseek.com/v1"
-    DEEPSEEK_MODEL: str = "deepseek-chat"
+    DEEPSEEK_MODEL: str = "deepseek-reasoner"
     DEEPSEEK_API_KEY: str = ""
     DEEPSEEK_TEMPERATURE: float = 0.7
     
